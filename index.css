@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(likhi.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 96rem;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color:crimson;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+    background-color:lightcoral;
+}
+
+.task-form {
+	display: flex; 
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.task-list {
+	border-radius: 10px solid black;
+	padding: 10px;
+    background-color:gray;
+}
+
+.task {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid:;
+	border-radius: 5px;
+}
+
+.task button {
+	background-color:#007bff;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.clear-all-btn {
+    display: block; /* Hide the button by default */
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clear-all-btn:hover {
+    background-color: #cc0000;
+}
+
+.delete-btn {
+    background-color: #ff3333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
